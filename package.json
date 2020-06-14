@@ -1,7 +1,7 @@
 {
-    "title": "Business Casual",
-    "name": "startbootstrap-business-casual",
-    "version": "5.0.9",
+    "title": "Dawn Mott - Portfolio",
+    "name": "dawn-mott-portfolio",
+    "version": "3.0.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
@@ -14,15 +14,15 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/business-casual",
+    "homepage": "",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "",
+        "email": ""
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Dawn Mott",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Dawn Mott"
     ],
     "repository": {
         "type": "git",
