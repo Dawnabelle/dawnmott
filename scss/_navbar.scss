@@ -1,5 +1,6 @@
 #mainNav {
   background-color: fade-out($primary, .1);
+  font-family: 'Lora', serif;
   @include heading-font;
   .navbar-brand {
     color: fade-out($tertiary, .1);
@@ -7,7 +8,7 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        color: fade-out($gray-600, 0.3);
+        color: fade-out($gray-700, 0.3);
 
         font-weight: 800;
       }
@@ -24,12 +25,12 @@
         .nav-link {
           font-size: 0.9rem;
           &:hover {
-            color: fade-out($black, 0.6);
+            color: fade-out($black, 0.8);
           }
         }
         &.active {
           .nav-link:hover {
-            color: $secondary;
+            color: fade-out($black, .4);
           }
         }
       }

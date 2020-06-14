@@ -17,6 +17,12 @@ h6 {
 
 p {
   line-height: 1.75;
+  font-size: 1.15rem;
+  font-family: 'Lora', serif;
+}
+li {
+  font-size: 1.1rem;
+  font-family: 'Lora', serif;
 }
 
 .text-faded {
@@ -63,4 +69,47 @@ p {
 
 .bg-faded {
   background-image: linear-gradient(90deg,#ffe1d6,#cfeffe);
+}
+a.mx-2 {
+  font-size: 2rem;
+  color: $secondary;
+}
+a.mx-2:hover {
+  color: $gray-600;
+}
+#presentations {
+  padding-top: 2rem;
+
+}
+#presentations div.pdxwit {
+  padding: 0 0 0 2rem;
+  border-left: 0.5rem solid #8099ff;
+}
+#presentations li {
+  list-style: none;
+}
+#show-projects.div {
+  float: right;
+}
+#show-projects.intro-text {
+  left: 0;
+  width: 40%;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  position: absolute;
+  .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+
+.proj {
+  box-shadow: .5rem .5rem fade-out($black, .8);
+}
+
+.layered {
+  box-shadow: -.5rem -.5rem fade-out($black, .8);
 }
