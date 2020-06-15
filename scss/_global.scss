@@ -113,3 +113,10 @@ a.mx-2:hover {
 .layered {
   box-shadow: -.5rem -.5rem fade-out($black, .8);
 }
+
+// footer
+.footer {
+  background-color: fade-out($primary, 0.1);
+  position: sticky;
+  margin-top: 5rem;
+}

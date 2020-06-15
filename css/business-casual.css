@@ -130,6 +130,13 @@ a.mx-2:hover {
   box-shadow: -0.5rem -0.5rem rgba(0, 0, 0, 0.2);
 }
 
+.footer {
+  background-color: rgba(211, 211, 211, 0.9);
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: 5rem;
+}
+
 #mainNav {
   background-color: rgba(211, 211, 211, 0.9);
   font-family: 'Lora', serif;
