@@ -36,6 +36,10 @@ a {
   color: #8099ff;
 }
 
+a:hover {
+  color: #868e96;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.3);
 }

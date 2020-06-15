@@ -28,6 +28,9 @@ li {
 a {
   color: $secondary;
 }
+a:hover {
+  color: $gray-600;
+}
 
 .text-faded {
   color: fade-out($white, 0.7);
