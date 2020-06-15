@@ -25,6 +25,10 @@ li {
   font-family: 'Lora', serif;
 }
 
+a {
+  color: $secondary;
+}
+
 .text-faded {
   color: fade-out($white, 0.7);
 }
