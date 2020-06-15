@@ -98,16 +98,20 @@ a.mx-2:hover {
   color: #868e96;
 }
 
-#presentations {
+.first-project {
+  margin-top: 15rem;
+}
+
+.presentations {
   padding-top: 2rem;
 }
 
-#presentations div.pdxwit {
+.presentations div.pdxwit {
   padding: 0 0 0 2rem;
   border-left: 0.5rem solid #8099ff;
 }
 
-#presentations li {
+.presentations li {
   list-style: none;
 }
 
