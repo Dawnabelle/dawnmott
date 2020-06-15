@@ -16,12 +16,12 @@
       bottom: -1rem;
       left: -1rem;
       right: -1rem;
-      border-width: .5rem;
-      border-style: solid;
-      border-image: linear-gradient(
-      to bottom,
-      #8099ff,
-      #fff
+      // border-width: .5rem;
+      // border-style: solid;
+      // border-image: linear-gradient(
+      // to bottom,
+      // #8099ff,
+      // #fff
     ) 1 100%;
     }
   }
@@ -30,11 +30,7 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: fade-out($primary, 0.1);
-  // .cta-recs-inner {
-  //   position: relative;
-  //   padding: 3rem;
-  //   margin: 0.5rem;
-  //   background-image: linear-gradient(90deg,#ffe1d6,#cfeffe);
+
     &:before {
       border-radius: 0.5rem;
       padding: -1rem;
@@ -51,6 +47,6 @@
       #8099ff,
       #fff
     ) 1 100%;
-    // }
+
   }
 }
