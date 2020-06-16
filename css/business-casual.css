@@ -106,12 +106,12 @@ a.mx-2:hover {
   padding-top: 2rem;
 }
 
-.presentations div.pdxwit {
+#presentations div.pdxwit {
   padding: 0 0 0 2rem;
   border-left: 0.5rem solid #8099ff;
 }
 
-.presentations li {
+#presentations li {
   list-style: none;
 }
 
@@ -240,10 +240,6 @@ a.mx-2:hover {
   bottom: -1rem;
   left: -1rem;
   right: -1rem;
-  border-width: .5rem;
-  border-style: solid;
-  -o-border-image: linear-gradient(to bottom, #8099ff, #fff) 1 100%;
-  border-image: linear-gradient(to bottom, #8099ff, #fff) 1 100%;
 }
 
 .cta-recs {

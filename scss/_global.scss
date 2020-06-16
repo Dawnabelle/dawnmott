@@ -91,11 +91,11 @@ a.mx-2:hover {
   padding-top: 2rem;
 
 }
-.presentations div.pdxwit {
+#presentations div.pdxwit {
   padding: 0 0 0 2rem;
-  border-left: 0.5rem solid #8099ff;
+  border-left: 0.5rem solid $secondary;
 }
-.presentations li {
+#presentations li {
   list-style: none;
 }
 #show-projects.div {
