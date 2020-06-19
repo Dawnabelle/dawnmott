@@ -97,6 +97,13 @@ a:hover {
   font-weight: 100;
 }
 
+@media (max-width: 995px) {
+  .section-heading .section-heading-lower {
+    font-size: .9rem;
+    color: #212529;
+  }
+}
+
 .page-section {
   margin-top: 5rem;
   margin-bottom: 5rem;
