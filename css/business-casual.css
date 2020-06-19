@@ -164,6 +164,12 @@ a.mx-2:hover {
   }
 }
 
+@media (min-width: 994px) {
+  #dawn {
+    display: none;
+  }
+}
+
 .btn-xl {
   font-weight: 700;
   font-size: 0.8rem;

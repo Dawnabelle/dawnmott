@@ -37,7 +37,11 @@
     }
   }
 }
-
+#dawn {
+  @media(min-width: 994px){
+    display: none;
+  }
+}
 // #mainNav {
 //   background-color: fade-out($primary, .1);
 //   font-family: 'Lora', serif;
