@@ -64,11 +64,6 @@ a:hover {
   line-height: 4rem;
 }
 
-.page-section {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
 .section-heading {
   text-transform: uppercase;
 }
@@ -83,6 +78,11 @@ a:hover {
   display: block;
   font-size: 3rem;
   font-weight: 100;
+}
+
+.page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .bg-faded {
@@ -136,6 +136,12 @@ a.mx-2:hover {
 
 .proj {
   box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 995px) {
+  h2#prof-rec {
+    font-size: 1.2rem;
+  }
 }
 
 .layered {
@@ -261,6 +267,10 @@ a.mx-2:hover {
   border-style: solid;
   -o-border-image: linear-gradient(to bottom, #8099ff, #fff) 1 100%;
   border-image: linear-gradient(to bottom, #8099ff, #fff) 1 100%;
+}
+
+.about-heading {
+  background-color: red !important;
 }
 
 @media (min-width: 992px) {
