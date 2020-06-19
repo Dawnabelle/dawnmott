@@ -23,6 +23,12 @@ p {
 li {
   font-size: 1.1rem;
   font-family: 'Lora', serif;
+  @media(max-width: 995px) {
+    padding-left: 0;
+    padding-bottom:.5rem;
+    margin: 0;
+    text-align: left;
+  }
 }
 
 a {
@@ -30,6 +36,13 @@ a {
 }
 a:hover {
   color: $gray-600;
+}
+ul {
+  @media(max-width: 995px) {
+    padding-left: 0;
+    margin: 0;
+    text-align: left;
+  }
 }
 
 .text-faded {
@@ -93,47 +106,7 @@ a.mx-2 {
 a.mx-2:hover {
   color: $gray-600;
 }
-.first-project {
-  margin-top: 15rem;
-}
-.presentations {
-  padding-top: 2rem;
 
-}
-#presentations div.pdxwit {
-  padding: 0 0 0 2rem;
-  border-left: 0.5rem solid $secondary;
-}
-#presentations li {
-  list-style: none;
-}
-#show-projects.div {
-  float: right;
-}
-#show-projects.intro-text {
-  left: 0;
-  width: 40%;
-  margin-top: 3rem;
-  margin-left: 5rem;
-  position: absolute;
-  .intro-button {
-    width: 100%;
-    left: 0;
-    position: absolute;
-    bottom: -2rem;
-  }
-}
-
-
-.proj {
-  box-shadow: .5rem .5rem fade-out($black, .8);
-}
-
-h2#prof-rec {
-  @media(max-width: 995px){
-    font-size: 1.2rem;
-  }
-}
 .layered {
   box-shadow: -.5rem -.5rem fade-out($black, .8);
 }

@@ -32,12 +32,29 @@ li {
   font-family: 'Lora', serif;
 }
 
+@media (max-width: 995px) {
+  li {
+    padding-left: 0;
+    padding-bottom: .5rem;
+    margin: 0;
+    text-align: left;
+  }
+}
+
 a {
   color: #8099ff;
 }
 
 a:hover {
   color: #868e96;
+}
+
+@media (max-width: 995px) {
+  ul {
+    padding-left: 0;
+    margin: 0;
+    text-align: left;
+  }
 }
 
 .text-faded {
@@ -96,52 +113,6 @@ a.mx-2 {
 
 a.mx-2:hover {
   color: #868e96;
-}
-
-.first-project {
-  margin-top: 15rem;
-}
-
-.presentations {
-  padding-top: 2rem;
-}
-
-#presentations div.pdxwit {
-  padding: 0 0 0 2rem;
-  border-left: 0.5rem solid #8099ff;
-}
-
-#presentations li {
-  list-style: none;
-}
-
-#show-projects.div {
-  float: right;
-}
-
-#show-projects.intro-text {
-  left: 0;
-  width: 40%;
-  margin-top: 3rem;
-  margin-left: 5rem;
-  position: absolute;
-}
-
-#show-projects.intro-text .intro-button {
-  width: 100%;
-  left: 0;
-  position: absolute;
-  bottom: -2rem;
-}
-
-.proj {
-  box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
-}
-
-@media (max-width: 995px) {
-  h2#prof-rec {
-    font-size: 1.2rem;
-  }
 }
 
 .layered {
@@ -269,24 +240,42 @@ a.mx-2:hover {
   border-image: linear-gradient(to bottom, #8099ff, #fff) 1 100%;
 }
 
-.about-heading {
-  background-color: red !important;
-}
-
-@media (min-width: 992px) {
-  .about-heading .about-heading-img {
-    position: relative;
-    z-index: 0;
-  }
-  .about-heading .about-heading-content {
-    margin-top: -5rem;
-    position: relative;
-    z-index: 1;
+@media (max-width: 995px) {
+  h2#prof-rec {
+    font-size: 1.2rem;
   }
 }
 
-.about-section {
-  padding: 5rem;
+.presentations {
+  padding-top: 2rem;
+}
+
+#presentations div.pdxwit {
+  padding: 0 0 0 2rem;
+  border-left: 0.5rem solid #8099ff;
+}
+
+#presentations li {
+  list-style: none;
+}
+
+#show-projects.div {
+  float: right;
+}
+
+#show-projects.intro-text {
+  left: 0;
+  width: 40%;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  position: absolute;
+}
+
+#show-projects.intro-text .intro-button {
+  width: 100%;
+  left: 0;
+  position: absolute;
+  bottom: -2rem;
 }
 
 @media (min-width: 992px) {
@@ -306,6 +295,14 @@ a.mx-2:hover {
     margin-top: -3rem;
     max-width: 50vw;
   }
+}
+
+.first-project {
+  margin-top: 15rem;
+}
+
+.proj {
+  box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .footer {
