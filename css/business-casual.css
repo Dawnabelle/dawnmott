@@ -179,6 +179,10 @@ a.mx-2:hover {
   padding-right: 2rem;
 }
 
+img#about-img {
+  border-radius: 50%;
+}
+
 .intro {
   position: relative;
 }
