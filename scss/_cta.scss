@@ -23,6 +23,7 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: fade-out($primary, 0.1);
+  height: 100vh;
 
     &:before {
       border-radius: 0.5rem;
@@ -44,6 +45,21 @@
 
   }
 }
+// p#recs {
+//   padding: 10rem;
+// }
+
+#recs-carousel {
+  margin: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+
+}
+// .carousel-text p {
+//   padding-left: 50rem;
+//   padding-right: 50rem;
+// }
+
 h2#prof-rec {
   @media(max-width: 995px){
     font-size: 1.2rem;
