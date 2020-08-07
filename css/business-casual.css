@@ -81,6 +81,12 @@ a:hover {
   line-height: 4rem;
 }
 
+@media (max-width: 992px) {
+  .site-heading .site-heading-lower {
+    font-size: 2rem;
+  }
+}
+
 .section-heading {
   text-transform: uppercase;
 }
@@ -179,8 +185,41 @@ a.mx-2:hover {
   padding-right: 2rem;
 }
 
+.splash {
+  height: 100vh;
+}
+
+@media (max-width: 992px) {
+  .splash {
+    height: auto;
+  }
+}
+
+.site-heading {
+  padding-top: 6rem;
+}
+
+@media (max-width: 992px) {
+  .site-heading {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .intro {
+    display: inline;
+  }
+}
+
 img#about-img {
   border-radius: 50%;
+}
+
+@media (max-width: 992px) {
+  #sm-splash {
+    height: 100vh;
+    vertical-align: middle;
+  }
 }
 
 .intro {

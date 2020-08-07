@@ -42,26 +42,3 @@
     display: none;
   }
 }
-// #mainNav {
-//   background-color: fade-out($primary, .1);
-//   font-family: 'Lora', serif;
-//   @include heading-font;
-//   .navbar-brand {
-//     color: fade-out($tertiary, .1);
-//   }
-//   .navbar-nav {
-//     .nav-item {
-//       .nav-link {
-//         font-size: 0.9rem;
-//         &:hover {
-//           color: fade-out($black, 0.8);
-//         }
-//       }
-//       &.active {
-//         .nav-link:hover {
-//           color: fade-out($black, .4);
-//         }
-//       }
-//     }
-//   }
-// }

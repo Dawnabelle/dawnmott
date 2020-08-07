@@ -60,24 +60,26 @@ ul {
     display: block;
     font-size: 2rem;
     font-weight: 800;
-    // @media (min-width: 995px) {
-    //   .site-heading-upper {
-    //     font-size: : 1rem;
-    //     color: red !important;
-    //   }
-    // }
+    }
   }
+
   .site-heading-lower {
     font-size: 5.5rem;
     font-weight: 200;
     line-height: 4rem;
-    // @media (min-width: 1200px) {
-    //   .site-heading-lower {
-    //     font-size: 1.5rem;
-    //   }
-    // }
   }
 }
+.site-heading.site-heading-upper {
+  @media (max-width: 995px) {
+    font-size: 1rem !important;
+  }
+}
+.site-heading.site-heading-lower {
+  @media (max-width: 995px) {
+    font-size: 2rem !important;
+  }
+}
+
 .section-heading {
   text-transform: uppercase;
   .section-heading-upper {
