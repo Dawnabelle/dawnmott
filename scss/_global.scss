@@ -36,7 +36,7 @@ li {
 }
 
 a {
-  color: $secondary;
+  color: $gray-100;
 }
 a:hover {
   color: $gray-600;
@@ -54,8 +54,8 @@ ul {
 }
 
 .site-heading {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   line-height: 1;
 
@@ -113,7 +113,7 @@ h2.section-heading {
 }
 a.mx-2 {
   font-size: 2rem;
-  color: $secondary;
+  color: $gray-100;
 }
 a.mx-2:hover {
   color: $gray-600;
