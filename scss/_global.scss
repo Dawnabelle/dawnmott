@@ -111,6 +111,15 @@ h2.section-heading {
 .bg-faded {
   background-image: linear-gradient(90deg,#ffe1d6,#cfeffe);
 }
+a.project-card {
+  color: $gray-900;
+}
+a.project-card:hover {
+  text-decoration: none;
+}
+.card-body:hover {
+  box-shadow: 3px 3px 5px 5px $gray-600;
+}
 a.mx-2 {
   font-size: 2rem;
 }

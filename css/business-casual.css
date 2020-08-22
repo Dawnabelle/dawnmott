@@ -10,6 +10,10 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
 }
 
 h1,
@@ -42,7 +46,7 @@ li {
 }
 
 a {
-  color: #8099ff;
+  color: #f8f9fa;
 }
 
 a:hover {
@@ -62,8 +66,8 @@ a:hover {
 }
 
 .site-heading {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   line-height: 1;
   font-family: 'Raleway';
@@ -81,9 +85,15 @@ a:hover {
   line-height: 4rem;
 }
 
-@media (max-width: 992px) {
-  .site-heading .site-heading-lower {
-    font-size: 2rem;
+@media (max-width: 995px) {
+  .site-heading.site-heading-upper {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 995px) {
+  .site-heading.site-heading-lower {
+    font-size: 2rem !important;
   }
 }
 
@@ -110,6 +120,10 @@ a:hover {
   }
 }
 
+h2.section-heading {
+  font-size: 3rem;
+}
+
 .page-section {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -119,9 +133,20 @@ a:hover {
   background-image: linear-gradient(90deg, #ffe1d6, #cfeffe);
 }
 
+a.project-card {
+  color: #212529;
+}
+
+a.project-card:hover {
+  text-decoration: none;
+}
+
+.card-body:hover {
+  box-shadow: 3px 3px 5px 5px #868e96;
+}
+
 a.mx-2 {
   font-size: 2rem;
-  color: #8099ff;
 }
 
 a.mx-2:hover {
@@ -137,6 +162,10 @@ a.mx-2:hover {
   position: -webkit-sticky;
   position: sticky;
   margin-top: 5rem;
+}
+
+div.card-body {
+  padding: 0;
 }
 
 #mainNav {
@@ -191,7 +220,7 @@ a.mx-2:hover {
 
 @media (max-width: 992px) {
   .splash {
-    height: auto;
+    height: 100vh;
   }
 }
 
@@ -279,6 +308,7 @@ img#about-img {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: rgba(211, 211, 211, 0.9);
+  height: 100vh;
 }
 
 .cta-recs:before {
@@ -355,10 +385,6 @@ img#about-img {
 
 .first-project {
   margin-top: 15rem;
-}
-
-.proj {
-  box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .footer {
