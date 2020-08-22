@@ -65,7 +65,7 @@ ul {
     font-size: 2rem;
     font-weight: 800;
     }
-  }
+
 
   .site-heading-lower {
     font-size: 5.5rem;
@@ -113,7 +113,6 @@ h2.section-heading {
 }
 a.mx-2 {
   font-size: 2rem;
-  color: $gray-100;
 }
 a.mx-2:hover {
   color: $gray-600;
@@ -130,5 +129,5 @@ a.mx-2:hover {
   margin-top: 5rem;
 }
 div.card-body {
-  margin-left: 5rem;
+  padding: 0;
 }
