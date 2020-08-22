@@ -1,6 +1,6 @@
 body {
   @include body-font;
-  background-image: linear-gradient(rgba(225, 225, 214, 0.5) 0%, rgba(207, 239, 254, 0.5)), url('../img/robin.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0  , 0.5)), url('../img/robin.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -22,11 +22,11 @@ h6 {
 p {
   line-height: 1.75;
   font-size: 1.15rem;
-  font-family: 'Lora', serif;
+  font-family: 'Varela Round', sans-serif;
 }
 li {
   font-size: 1.1rem;
-  font-family: 'Lora', serif;
+  ffont-family: 'Varela Round', sans-serif;
   @media(max-width: 995px) {
     padding-left: 0;
     padding-bottom:.5rem;
@@ -104,10 +104,10 @@ ul {
 h2.section-heading {
   font-size: 3rem;
 }
-.page-section {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
+// .page-section {
+//   margin-top: 5rem;
+//   margin-bottom: 5rem;
+// }
 .bg-faded {
   background-image: linear-gradient(90deg,#ffe1d6,#cfeffe);
 }

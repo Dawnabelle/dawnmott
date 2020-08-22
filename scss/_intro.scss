@@ -5,7 +5,7 @@
   }
 }
 .site-heading {
-  padding-top: 6rem;
+  padding-top: 1rem;
   @media (max-width: 992px) {
     padding-top: 0;
   }
@@ -28,7 +28,7 @@ img#about-img {
   position: relative;
   @media (min-width: 992px) {
     .intro-img {
-      width: 50%;
+      width: 40%;
       float: right;
     }
     .intro-text {

@@ -1,12 +1,12 @@
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: fade-out($primary, 0.1);
+  // background-color: fade-out($primary, 0.1);
   .cta-inner {
     position: relative;
     padding: 3rem;
     margin: 0.5rem;
-    background-image: linear-gradient(90deg,#ffe1d6,#cfeffe);
+    // background-image: linear-gradient(90deg,#ffe1d6,#cfeffe);
     &:before {
       border-radius: 0.5rem;
       padding: -1rem;
@@ -22,7 +22,7 @@
 .cta-recs {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: fade-out($primary, 0.1);
+  // background-color: fade-out($primary, 0.1);
   height: 100vh;
 
     &:before {
@@ -45,6 +45,21 @@
 
   }
 }
+.community {
+  background-color: fade-out($primary, 0.1);
+
+}
+// p#recs {
+//   padding: 10rem;
+// }
+//
+// #recs-carousel {
+// background: clear;
+// }
+// .carousel-text p {
+//   padding-left: 50rem;
+//   padding-right: 50rem;
+// }
 
 h2#prof-rec {
   @media(max-width: 995px){
