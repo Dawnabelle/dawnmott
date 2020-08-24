@@ -163,6 +163,11 @@ div.card-body {
   padding: 0;
 }
 
+ul.proj {
+  list-style: none;
+  padding: 0 1rem 0rem 1rem;
+}
+
 #mainNav {
   background-color: rgba(211, 211, 211, 0.9);
   font-family: 'Lora', serif;
@@ -237,6 +242,7 @@ div.card-body {
 
 img#about-img {
   border-radius: 50%;
+  width: 300px;
 }
 
 @media (max-width: 992px) {
@@ -252,13 +258,12 @@ img#about-img {
 
 @media (min-width: 992px) {
   .intro .intro-img {
-    width: 40%;
+    width: 100px;
     float: right;
   }
   .intro .intro-text {
     left: 0;
     width: 60%;
-    margin-top: 3rem;
     position: absolute;
   }
   .intro .intro-text .intro-button {
@@ -332,7 +337,7 @@ img#about-img {
   padding-top: 2rem;
 }
 
-#presentations div.pdxwit {
+div.pdxwit {
   padding: 0 0 0 2rem;
   border-left: 0.5rem solid #8099ff;
 }

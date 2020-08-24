@@ -17,6 +17,8 @@
 }
 img#about-img {
   border-radius: 50%;
+  width: 300px;
+
 }
 #sm-splash {
   @media (max-width: 992px) {
@@ -28,13 +30,13 @@ img#about-img {
   position: relative;
   @media (min-width: 992px) {
     .intro-img {
-      width: 40%;
+      width: 100px;
       float: right;
     }
     .intro-text {
       left: 0;
       width: 60%;
-      margin-top: 3rem;
+      // margin-top: 3rem;
       position: absolute;
       .intro-button {
         width: 100%;
