@@ -250,7 +250,7 @@ section#presentations {
 
 @media (max-width: 992px) {
   .splash {
-    height: 100vh;
+    height: auto;
   }
 }
 
