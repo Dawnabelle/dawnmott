@@ -146,10 +146,20 @@ ul.proj {
 }
 section#projects {
   height:100vh;
+  @media (max-width: 992px) {
+    height: auto;
+  }
 }
+
 section#recs {
   height: 100vh;
+  @media (max-width: 992px) {
+    height: auto;
+  }
 }
 section#presentations {
   height: 100vh;
+  @media (max-width: 992px) {
+    height: auto;
+  }
 }

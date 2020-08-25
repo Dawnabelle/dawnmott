@@ -172,12 +172,30 @@ section#projects {
   height: 100vh;
 }
 
+@media (max-width: 992px) {
+  section#projects {
+    height: auto;
+  }
+}
+
 section#recs {
   height: 100vh;
 }
 
+@media (max-width: 992px) {
+  section#recs {
+    height: auto;
+  }
+}
+
 section#presentations {
   height: 100vh;
+}
+
+@media (max-width: 992px) {
+  section#presentations {
+    height: auto;
+  }
 }
 
 #mainNav {
