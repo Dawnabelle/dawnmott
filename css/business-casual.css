@@ -168,6 +168,18 @@ ul.proj {
   padding: 0 1rem 0rem 1rem;
 }
 
+section#projects {
+  height: 100vh;
+}
+
+section#recs {
+  height: 100vh;
+}
+
+section#presentations {
+  height: 100vh;
+}
+
 #mainNav {
   background-color: rgba(211, 211, 211, 0.9);
   font-family: 'Lora', serif;
@@ -280,14 +292,8 @@ img#about-img {
   }
 }
 
-.cta {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .cta .cta-inner {
   position: relative;
-  padding: 3rem;
   margin: 0.5rem;
 }
 
