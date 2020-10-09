@@ -48,9 +48,9 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item px-lg-4">
+          <!-- <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="#projects">Projects</a>
-          </li>
+          </li> -->
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="#recs">Recommendations</a>
           </li>
@@ -64,14 +64,14 @@
 <div class="">
   <h1 class="site-heading text-center text-white d-lg-block mt-4 mx-0">
     <span class="site-heading-lower">Dawn Mott</span>
-    <span class="site-heading-upper text-tertiary"> Designer |  Developer |  Dynamo</span>
+    <span class="site-heading-upper text-tertiary">Dynamic | Jazzy | Motivating </span>
   </h1>
 </div>
-<div class="social d-flex justify-content-center mt-4">
+<!-- <div class="social d-flex justify-content-center mt-4">
     <a class="mx-2" href="mailto:dawn.mott@gmail.com"><i class="fa fa-envelope-square" alt="email link"></i></a>
     <a class="mx-2" href="https://www.linkedin.com/in/dawnmott/" target="_blank"><i class="fab fa-linkedin" alt="link to linkedin"></i></a>
     <a class="mx-2" href="https://github.com/dawnabelle" target="_blank"><i class="fab fa-github" alt="link to github repository"></i></a>
-</div>
+</div> -->
 <section class="page-section clearfix">
   <div class="container mt-5">
     <div class="intro">
@@ -82,8 +82,10 @@
       <div class="intro-text left-0 p-5 text-white">
 
         <p class="mb-4">
-As a Janelle-of-all trades, I strive to maintain a growth-mindset, viewing every challenge as an opportunity to learn something new. <br>Please view my <a style="color:#8099ff;" href="https://github.com/Dawnabelle/portfolio/blob/master/img/dawnmott-ui-portfolio-2020.pdf" alt="link to resume"  target="_blank"> resume <i class="fa fa-file" title=""></i></a> where I share more about my professional experience.
+          As a proven leader and business owner Dawn shows up and brings 100% every day and to every project. Her boundless energy and enthusiasm are a source of inspiration and motivation others.
         </p>
+
+<!-- As a Janelle-of-all trades, I strive to maintain a growth-mindset, viewing every challenge as an opportunity to learn something new. <br>Please view my <a style="color:#8099ff;" href="https://github.com/Dawnabelle/portfolio/blob/master/img/dawnmott-ui-portfolio-2020.pdf" alt="link to resume"  target="_blank"> resume <i class="fa fa-file" title=""></i></a> where I share more about my professional experience. -->
 
       </div>
     </div>
@@ -94,19 +96,17 @@ As a Janelle-of-all trades, I strive to maintain a growth-mindset, viewing every
 <!-- About -->
 
 
-<section id="projects" class="bg-faded">
-  <!-- Content Row -->
-  <div class="col-lg-10 pt-3 mx-auto text-center">
+<!-- <section id="projects" class="bg-faded">
+  <div class="col-lg-10 pt-3 mx-auto ">
     <h2 id="prof-rec">Work & Projects</h2>
   </div>
-  <p class="text-center pt-3 ml-5 mr-5">
-I am a UI Designer and Frontend Developer with a passion for creating solid user experiences.<br>
-<!-- I strive to create designs that look good and function better.<br> -->
-My strongest stacks include JavaScript, Ember, and CSS.
+  <p class=" pt-3 ml-5 mr-5">
+  I am a UI Designer and Frontend Developer with a passion for creating solid user experiences.<br>
+  My strongest stacks include JavaScript, Ember, and CSS.
   </p>
-<div class="row ml-5 mr-5 pb-5">
+  <div class="row ml-5 mr-5 pb-5">
   <div class="col-md-4 mb-5 mt-5">
-    <a class="project-card" target="_blank" href="http://evatool.oregonmetro.gov/">
+    <a class="project-card"  data-toggle="modal" data-target="#proj1">
     <div class="card h-100">
       <div class="card-body">
         <img class="product-item-img mx-auto d-flex  img-fluid mb-3 mb-lg-0" src="img/pdx-eva.png" alt="economic value atlas map of Portland, Oregon">
@@ -119,9 +119,37 @@ My strongest stacks include JavaScript, Ember, and CSS.
       </div>
 
     </div>
+
+
+  <div class="modal fade" id="proj1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Economic Value Atlas</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          <p>
+            The Economic Value Atlas (EVA) is a decision-support tool that enables a user to exhibit economic conditions, as a data picture, among communities in the Portland-Vancouver region.
+          </p>
+          <video class="img-fluid" controls src="img/eva-demo.mov" alt="EVA video demo">
+
+          </video>
+          <ul>
+            <li>UX - Reorganized content org and layout to make it easier to access and understand</li>
+            <li>UI - all components - color, sizing , scale, interactions</li>
+          </ul>
+        </div>
+        <a  class="text-black-50" target="_blank" href="http://evatool.oregonmetro.gov/">Vist the EVA
+        </a>
+      </div>
+    </div>
+  </div>
+
   </a>
   </div>
-  <!-- /.col-md-4 -->
   <div class="col-md-4 mb-5 mt-5">
     <a  class="project-card"  target="_blank" href="https://regionalbarometer.oregonmetro.gov/">
     <div class="card h-100">
@@ -137,28 +165,95 @@ My strongest stacks include JavaScript, Ember, and CSS.
 
     </div>
     </a>
+
   </div>
-  <!-- /.col-md-4 -->
-  <div class="col-md-4 mb-5 mt-5">
-    <a class="project-card"  target="_blank" href="https://www.dymaptic.com/products">
-    <div class="card h-100">
-      <div class="card-body">
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/infographic.png" alt="Infographic software example template.">
-        <h2 class="section-heading-upper pl-2">Infomaptic</h2>
-        <ul class="proj">
-          <li>Designed initial templates in Sketch and Balsamic.</li>
-          <li>Built many data import layouts as grids in JSON.</li>
-          <li>Created design specs for developers to follow.</li>
-        </ul>
+    <div class="col-md-4 mb-5 mt-5">
+      <a class="project-card"  target="_blank" href="https://www.dymaptic.com/products">
+      <div class="card h-100">
+        <div class="card-body">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/infographic.png" alt="Infographic software example template.">
+          <h2 class="section-heading-upper pl-2">Infomaptic</h2>
+          <ul class="proj">
+            <li>Designed initial templates in Sketch and Balsamic.</li>
+            <li>Built many data import layouts as grids in JSON.</li>
+            <li>Created design specs for developers to follow.</li>
+          </ul>
+        </div>
+
       </div>
-
+      </a>
     </div>
-    </a>
   </div>
-  <!-- /.col-md-4 -->
+</section> -->
+
+
+<section class="page-section cta community bg-faded">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-11">
+        <div class="cta-inner rounded">
+          <!-- community projects  -->
+          <section id="presentations">
+            <div class="row  no-gutters mb-lg-5 pt-5">
+              <div class="col-xl-4 col-lg-5">
+                <img class="img-fluid rounded pl-1" src="img/pdxwit-pride.png" alt="" width="200px" />
+              </div>
+              <div class="col-xl-8 col-lg-7">
+                <div class="pdxwit  text-lg-left">
+                  <h2>Host of PDXWIT's <br>
+                    <a  style="color:#8099ff;"href="pdxwit.org/podcast">Breaking the Glass Ceiling</a> podcast</h2>
+                    <ul>
+                      <p><strong>Top Episodes</strong></p>
+                      <li><a style="color:#8099ff;" href="https://breaking-the-glass-ceiling.netlify.app/episodes/13-marcus-carter-ii"  target="_blank">Self-Awareness</a> with Marcus Carter III</li>
+                      <li><a style="color:#8099ff;" href="https://breaking-the-glass-ceiling.netlify.app/episodes/17-jesselle-hedman" target="_blank">Beyond Diversity</a> with Jesselle Hedman</li>
+                      <li><a style="color:#8099ff;" href="https://podcast.pdxwit.org/episodes/21-rachel-parrott" target="_blank">Less Talk, More Action</a> with Rachel Parrot</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-4 col-lg-5">
+                  <img class="img-fluid rounded pl-2" src="img/digital.png" alt="" width="200px" />
+                </div>
+                <div class="col-lg-8 col-lg-7">
+                  <div class="pdxwit text-center text-lg-left">
+                    <h2>In the community</h2>
+                    <ul>
+                      <li>Gargoyle <strong>10 Minute Playfest </strong> August 2016 (Playwright/Director)</li>
+                      <li>Cycling Navigation <strong>Esri Dev Summit</strong> March 2019 (Presentation)</li>
+                      <li>Intro to GIS <strong>ACT-W</strong> June 2019 (Workshop)</li>
+                      <li>Think Out Loud <strong>OPB</strong> August 2019 (Radio)</li>
+                      <li>Speak Freely <strong>KXL </strong>September 2019 (Radio)</li>
+                      <li>Digital Trends Live <strong>Digital Trends</strong> February 2020 (Livestream)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-4 col-lg-5">
+                  <img class="img-fluid rounded pl-2" src="img/gsg.jpeg" alt="" width="200px" />
+                </div>
+                <div class="col-xl-8 col-lg-7 ">
+                  <div class="pdxwit text-center text-lg-left">
+                    <h2 class="text-black-80">Gunstreet Goods</h2>
+                    <p>A stylized, vintage apparel and footwear brand.</p>
+                    <ul>
+                      <li>For sanity and sustainability's sake, I spent a few years in Atlanta and on the road slinging only the finest in pre-worn duds with Keri Workley who now calls <strong>all</strong> the shots and is going strong.</li>
+                      <li><a style="color:#8099ff;" target="_blank" href="https://www.instagram.com/gunstreetgoods"> Support small business and reduce waste!</a></li>
+                    </ul>
+                    <p class="text-black-50 mb-0"> </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-
-
 
 <section class="text-center" id="recs">
     <div class="container mt-5">
@@ -177,7 +272,7 @@ My strongest stacks include JavaScript, Ember, and CSS.
               <div class="carousel-inner" style="padding:5rem;">
                 <div id="carousel-item0" class="carousel-item active">
                   <p class="text-white carousel-text">"I sincerely enjoyed working with Dawn. I appreciated her persistence, organization, drive, and everything she contributed to our team."
-                    <br><br><strong>-Julie Stringham</strong>, Software Engineer, Oregon Metro<br>Interim Engineering Manager</p>
+                    <br><br><strong>-Julie Stringham</strong>, Interim Manager, Oregon Metro</p>
                     <img class="d-block rounded" style="margin-left:auto;margin-right:auto;width:30%;" src="img/opb.jpeg" alt="Dawn Mott and Megan Bigelow of PDXWIT sitting in the studio live on OPB radio for Thinking Out Loud">
                 </div>
                 <div id="carousel-item1" class="carousel-item">
@@ -187,12 +282,12 @@ My strongest stacks include JavaScript, Ember, and CSS.
                 </div>
                 <div id="carousel-item2" class="carousel-item">
                   <p class="text-white carousel-text">"Dawn is driven, has a growth-mindset, and is a fountain of good ideas. She is a force of positivity and conintuous improvement in this world."
-                  <br>  <br><strong>-April Leonard</strong>, Engineering Manager, New Relic<br>Breaking the Glass Ceiling Podcast Team Lead</p>
+                  <br>  <br><strong>-April Leonard</strong>, Engineering Manager, GitHub<br>Breaking the Glass Ceiling Podcast Team Lead</p>
                     <img class="d-block rounded" style="margin-left:auto;margin-right:auto;width:30%;" src="img/podcast-marcus.jpg" alt="Dawn Mott with podcast co-host, Kimberly, and guest Marcus Carter sit on a couch with recording equiptment.">
                 </div>
                 <div id="carousel-item3" class="carousel-item">
                   <p class="text-white carousel-text">"Dawn is a passionate and strong individual that will bring an exciting dynamic to any work place. Her out-of-the-box thinking will breathe life into stagnant projects and work flow. I'm confident that Dawn can do anything!"
-                    <br><br><strong>-Brenda Franco</strong>, Software Engineer, Hydrolix<br>Epicodus Classmate</p>
+                    <br><br><strong>-Brenda Franco</strong>, Software Engineer, Hydrolix</p>
                     <img class="d-block" style="margin-left:auto;margin-right:auto;width:30%;" src="img/pdxwit-talk.jpg" alt="Dawn Mott standing with a group of improv students waving at the camera during the 2019 act-w conference in Portland, Oregon">
                 </div>
               </div>
@@ -211,72 +306,6 @@ My strongest stacks include JavaScript, Ember, and CSS.
     </div>
 </section>
 
-<section class="page-section cta community bg-faded">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-11">
-          <div class="cta-inner rounded">
-              <!-- community projects  -->
-              <section id="presentations">
-                <div class="row  no-gutters mb-lg-5 pt-5">
-                    <div class="col-xl-4 col-lg-5">
-                      <img class="img-fluid rounded pl-1" src="img/pdxwit-pride.png" alt="" width="200px" />
-                    </div>
-                    <div class="col-xl-8 col-lg-7">
-                        <div class="pdxwit  text-lg-left">
-                          <h2>Host of PDXWIT's <br>
-                            <a  style="color:#8099ff;"href="pdxwit.org/podcast">Breaking the Glass Ceiling</a> podcast</h2>
-                          <ul>
-                            <p><strong>Top Episodes</strong></p>
-                            <li><a style="color:#8099ff;" href="https://breaking-the-glass-ceiling.netlify.app/episodes/13-marcus-carter-ii"  target="_blank">Self-Awareness</a> with Marcus Carter III</li>
-                            <li><a style="color:#8099ff;" href="https://breaking-the-glass-ceiling.netlify.app/episodes/17-jesselle-hedman" target="_blank">Beyond Diversity</a> with Jesselle Hedman</li>
-                            <li><a style="color:#8099ff;" href="https://podcast.pdxwit.org/episodes/21-rachel-parrott" target="_blank">Less Talk, More Action</a> with Rachel Parrot</li>
-                          </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                  <div class="col-xl-4 col-lg-5">
-                    <img class="img-fluid rounded pl-2" src="img/digital.png" alt="" width="200px" />
-                  </div>
-                  <div class="col-lg-8 col-lg-7">
-                    <div class="pdxwit text-center text-lg-left">
-                      <h2>In the community</h2>
-                  <ul>
-                    <li>Cycling Navigation <strong>Esri Dev Summit</strong> March 2019 (Presentation)</li>
-                    <li>Intro to GIS <strong>ACT-W</strong> June 2019 (Workshop)</li>
-                    <li>Think Out Loud <strong>OPB</strong> August 2019 (Radio)</li>
-                    <li>Speak Freely <strong>KXL </strong>September 2019 (Radio)</li>
-                    <li>Digital Trends Live <strong>Digital Trends</strong> February 2020 (Livestream)</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-              <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                  <div class="col-xl-4 col-lg-5">
-                    <img class="img-fluid rounded pl-2" src="img/gsg.jpeg" alt="" width="200px" />
-                  </div>
-                  <div class="col-xl-8 col-lg-7 ">
-                      <div class="pdxwit text-center text-lg-left">
-                          <h2 class="text-black-80">Gunstreet Goods</h2>
-                          <p>A stylized, vintage apparel and footwear brand.</p>
-                          <ul>
-                            <li>Before I entered tech, I spent a few years in Atlanta and on the road slinging only the finest in pre-worn duds. Keri Workley now calls <strong>all</strong> the shots and is going strong.</li>
-                            <li><a style="color:#8099ff;" target="_blank" href="https://www.instagram.com/gunstreetgoods"> Support small business and reduce waste!</a></li>
-                          </ul>
-                          <p class="text-black-50 mb-0"> </p>
-                      </div>
-                  </div>
-              </div>
-              </div>
-              </section>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
 <section>
 
